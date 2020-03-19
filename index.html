@@ -54,6 +54,42 @@
 	</header>
 	<main class="main">
 		
+		<div class="main__wrapper">
+			<form action="#" class="search_form">
+				<div class="search_form__wrapper">
+					<label for="" class="search_form__text">Найдём номера под ваши пожелания</label>
+					<div class="search_form__arrive">
+						<label for="" class="search_form__arriving">прибытие</label>
+						<div class="search_form__arriving-field">
+							<input type="text" class="search_form__arriving-date" value="ДД.ММ.ГГГГ">
+							<div class="search_form__expand"></div>
+						</div>
+					</div>
+					<div class="search_form__depart">
+						<label for="" class="search_form__departure">выезд</label>
+						<div class="search_form__departure-field">
+							<input type="text" class="search_form__departure-date" value="ДД.ММ.ГГГГ">
+							<div class="search_form__expand"></div>
+						</div>
+					</div>
+					<div class="search_field__guests_number">
+						<label for="" class="search_form__guests">гости</label>
+						<div class="search_form__guests-field">
+							<input type="text" class="search_form__guests-number" value="Сколько гостей">
+							<div class="search_form__expand"></div>
+						</div>
+					</div>
+					<div class="search_form__submit_field">
+						<div class="search_form__submit-field">
+							<input type="submit" class="search_form__submit" value="подобрать номер">
+						</div>
+						<div class="search_form__forward"></div>
+					</div>
+				</div>
+			</form>
+			<div class="main__sign">
+				<p class="main__sign-text">Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+			</div>
 	</main>
 	<footer class="footer">
 		<!-- <div class="wrapper"> -->
@@ -126,7 +162,15 @@
 						<div class="footer__menu-subscr-par-box">
 							<p class="footer__menu-subscr-par">Получайте специальные предложения и новости сервиса</p>
 						</div>						
-						<div class="email_form"></div>
+						<div class="email_forms">
+							<form action="#" class="email_form">
+								<input type="text" class="email_form__text" value="Email">	
+							<!-- </form> -->
+								<input type="submit" class="email_form__submit" value="">
+							<!-- <form action="#" class="email_form__submit"> -->
+								<!-- <img src="img/arrow_forward.png" alt="" class="email_form__forward"> -->
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
